@@ -1,0 +1,198 @@
+
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            :root {
+                /*Font settings*/
+                font-size: 13px;
+                font-family: 'Manrope', sans-serif;
+                /*Colour variables*/
+                --very-dark-grayish-blue: hsl(217, 19%, 35%);
+                --desaturated-dark-blue: hsl(214, 17%, 51%);
+                --grayish-blue: hsl(212, 23%, 69%);
+                --light-grayish-blue: hsl(210, 46%, 95%);
+            }
+            body {
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--light-grayish-blue);
+            }
+            .card {
+                background-color: white;
+                border-radius: 10px;
+                min-width: 288px;
+                max-width: 375px;
+            }
+            .card_image img {
+                width: 100%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .card_content {
+                padding: 2em;
+            }
+            .card_heading {
+                font-weight: 700;
+                font-size: 1.325rem;
+                margin-bottom: 1em;
+                color: var(--very-dark-grayish-blue);
+            }
+            .card_text {
+                font-weight: 700;
+                color: var(--grayish-blue);
+            }
+            .author_details {
+                margin-top: 3em;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .about_author {
+                display: flex;
+                gap: 1em;
+                align-items: flex-end;
+            }
+            .user_image {
+                height: 3em;
+                border-radius: 50%;
+            }
+            .share_btn {
+                border-radius: 50%;
+                padding: 0.7em;
+                text-align: center;
+                height: 2.5em;
+                background-color: var(--light-grayish-blue);
+                justify-self: flex-end;
+                margin-right: -7em;
+            }
+            .share_btn:hover {
+                cursor: pointer;
+            }
+            .share_btn_desktop {
+                display: none;
+            }
+            .user_name {
+                font-weight: 700;
+            }
+            .button_icon {
+                height: 1.5em;
+                color: var(--very-dark-grayish-blue);
+            }
+            .share_button:hover {
+                cursor: pointer;
+            }
+            .date {
+                color: var(--grayish-blue);
+            }
+            .mobile_share_section_active {
+                padding: 0.5em;
+                background-color: var(--very-dark-grayish-blue);
+                display: flex;
+                justify-content: space-around;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            .social_links {
+                display: flex;
+                align-items: center;
+            }
+            .social_links p {
+                color: var(--grayish-blue);
+                letter-spacing: 0.25em;
+            }
+            .social_media_icons,
+            .social_media_icons a + a {
+                margin-left: 1em;
+            }
+            .close_btn {
+                padding: 0.5em;
+                background-color: var(--desaturated-dark-blue);
+                border-radius: 50%;
+            }
+            .close_btn_desktop {
+                display: none;
+            }
+            .share_icon_active {
+                color: white;
+            }
+            .close_btn:hover {
+                cursor: pointer;
+            }
+            .hide_div {
+                display: none;
+            }
+            .desktop_links_section {
+                display: none;
+            }
+            @media (min-width: 800px) {
+                .card {
+                    display: flex;
+                    width: 70%;
+
+                    min-width: 760px;
+                    max-width: 830px;
+                }
+
+                .card_image img {
+                    height: 100%;
+                }
+                .share_btn {
+                    display: none;
+                }
+                .desktop_btn_container {
+                    position: relative;
+                }
+                .share_btn_desktop {
+                    display: block;
+                    border-radius: 50%;
+                    padding: 0.7em;
+                    text-align: center;
+                    height: 2.5em;
+                    background-color: var(--light-grayish-blue);
+                }
+                .share_btn_desktop:hover {
+                    cursor: pointer;
+                }
+                .close_btn_desktop {
+                    display: none;
+                    background-color: var(--desaturated-dark-blue);
+                    border-radius: 50%;
+                    padding: 0.7em;
+                    text-align: center;
+                    height: 2.5em;
+                }
+                .close_btn_desktop:hover {
+                    cursor: pointer;
+                }
+                .close_btn_desktop .button_icon {
+                    color: white;
+                }
+                .desktop_links_section {
+                    position: absolute;
+
+                    right: -6.5em;
+                    margin-top: -5em;
+                    background-color: var(--very-dark-grayish-blue);
+                    padding: 1em 2em;
+                    border-radius: 10px;
+                    min-width: 215px;
+                }
+                .desktop_links_section::after {
+                    content: '';
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    margin-left: -5px;
+                    border-width: 10px;
+                    border-style: solid;
+                    border-color: var(--very-dark-grayish-blue) transparent
+                        transparent transparent;
+                }
+            }
