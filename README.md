@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [View solution here](https://github.com/ArryBlack/Article-Preview-Component-Solution-Frontend-Mentor)
 -   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -40,15 +40,15 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt about structuring markup and making changes to CSS through javascript in response to user inputs.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+The markup and CSS was messy and I had to use a lot of extra components which are probably not necessary. I'll make the necessary code changes based on any feedback.
+There is also a 'bug', which occurs when testing the website's responsiveness with devtools, but shouldn't be an issue for the end user. Nonetheless, any help in fixing the bug is highly appreciated.
 
 ## Author
 
--   GitHub - [Add your name here](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   GitHub - [ArryBlack](https://github.com/ArryBlack)
+
+-   Frontend Mentor - [@ArryBlack](https://www.frontendmentor.io/profile/ArryBlack)
