@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [View solution here](https://github.com/ArryBlack/Article-Preview-Component-Solution-Frontend-Mentor)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [View site here](https://arryblack.github.io/Article-Preview-Component-Solution-Frontend-Mentor/)
 
 ## My process
 
